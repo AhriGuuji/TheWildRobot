@@ -8,13 +8,15 @@ public class CameraFollow : MonoBehaviour
 
     [SerializeField] private Type       type;
     [SerializeField] private Transform  targetEntity;
-    [SerializeField] private Vector3    offset;
+    [SerializeField] public Vector3    offset;
     [SerializeField] private float      viewAbove;
     [SerializeField] private float      viewDown;
     [SerializeField] private float      maxSpeed;
     [SerializeField] private float      verticalMoveSpeed;
+    public bool Invert{get; set;}
     private Vector2 originalOffSet;
     private Vector2 targetOffset;
+    private float originalXOffset;
 
     [Header("Camera BounderyBox")]
     [SerializeField] private float      topLimite = 1f;
@@ -24,12 +26,18 @@ public class CameraFollow : MonoBehaviour
 
     void Start()
     {
+        originalXOffset = offset.x;
         originalOffSet = offset;
         targetOffset = originalOffSet;
     }
 
     void Update()
     {
+        if(Invert)
+        {
+            offset.x = -originalXOffset;
+        }  
+
         if (Input.GetKeyDown(KeyCode.W))
         {
             targetOffset = originalOffSet + new Vector2(0, viewAbove);
@@ -49,6 +57,8 @@ public class CameraFollow : MonoBehaviour
         }
 
         offset = Vector3.Lerp(offset, targetOffset, verticalMoveSpeed * Time.deltaTime);
+
+        
     }
     void FixedUpdate()
     {

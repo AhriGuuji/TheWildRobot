@@ -66,11 +66,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\DeleteYourself.cs" />
     <Compile Include="Assets\Scripts\CheckPointManager.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\CameraInvert.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scripts\NextLevel.cs" />
     <Compile Include="Assets\Scripts\ArmMechanic.cs" />
+    <Compile Include="Assets\Scripts\DestroyFox.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\RunningAway.cs" />
     <Compile Include="Assets\Scripts\DestroyPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
