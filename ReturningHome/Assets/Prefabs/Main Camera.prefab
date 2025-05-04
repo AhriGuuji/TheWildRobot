@@ -151,9 +151,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  targetEntity: {fileID: 0}
+  targetEntity: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
   offset: {x: 100, y: 0, z: 0}
+  viewAbove: 300
   maxSpeed: 150
+  verticalMoveSpeed: 1
   topLimite: 55
   bottomLimite: -1
   leftLimite: -93.77
