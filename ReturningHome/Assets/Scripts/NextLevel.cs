@@ -1,4 +1,3 @@
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,7 +10,7 @@ public class NextLevel : MonoBehaviour
     {
         playerCO = FindAnyObjectByType<Player>().GetComponent<Collider2D>();
     }
-    
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision == playerCO)

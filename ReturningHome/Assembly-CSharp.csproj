@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\NextLevel.cs" />
     <Compile Include="Assets\Scripts\ArmMechanic.cs" />
+    <Compile Include="Assets\Scripts\ResetButton.cs" />
     <Compile Include="Assets\Scripts\DestroyFox.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\RunningAway.cs" />

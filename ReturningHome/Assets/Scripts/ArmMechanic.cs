@@ -92,6 +92,7 @@ public class ArmMechanic : MonoBehaviour
 
             if (grappling && Input.GetMouseButton(1))
             {
+                stopMov.enabled = false;
                 Vector3 direction = -(gameObject.transform.position - current);
                 Vector3 moveDir = direction.normalized;
                 float x = moveDir.x * grapVelocity.x;
