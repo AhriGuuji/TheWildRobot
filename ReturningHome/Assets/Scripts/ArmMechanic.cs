@@ -134,13 +134,17 @@ public class ArmMechanic : MonoBehaviour
             if (moveX || moveY) {_trans.linearVelocity = new Vector2(baseSpeedX,baseSpeedY);}
             UpdateLineRenderer();
 
-            
+            if (_trans != null)
+            {
+                Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(),_trans.GetComponent<Collider2D>(),true);
+            }
         }
         if (Input.GetMouseButtonUp(0)) 
         {
             stopMov.enabled = true;
             joint.enabled = false;
             _trans.linearVelocity = Vector2.zero;
+            Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(),_trans.GetComponent<Collider2D>(),false);
             _trans = null;
             lineRenderer.enabled = false;
         }

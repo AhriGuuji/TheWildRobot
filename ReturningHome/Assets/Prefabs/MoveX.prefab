@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6281345637451419213}
   - component: {fileID: 7171769545068089796}
   - component: {fileID: 6451808934447488208}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MoveX
   m_TagString: Untagged
   m_Icon: {fileID: 0}

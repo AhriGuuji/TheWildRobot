@@ -9,17 +9,18 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private Type       type;
     [SerializeField] private Transform  targetEntity;
     [SerializeField] private Vector3    offset;
-    [SerializeField] private float viewAbove;
+    [SerializeField] private float      viewAbove;
+    [SerializeField] private float      viewDown;
     [SerializeField] private float      maxSpeed;
-    [SerializeField] private float verticalMoveSpeed;
+    [SerializeField] private float      verticalMoveSpeed;
     private Vector2 originalOffSet;
     private Vector2 targetOffset;
 
     [Header("Camera BounderyBox")]
-    [SerializeField] private float topLimite    = 1f;
-    [SerializeField] private float bottomLimite = -1f;  
-    [SerializeField] private float leftLimite   = -1f; 
-    [SerializeField] private float rightLimite  = 1f; 
+    [SerializeField] private float      topLimite = 1f;
+    [SerializeField] private float      bottomLimite = -1f;  
+    [SerializeField] private float      leftLimite = -1f; 
+    [SerializeField] private float      rightLimite = 1f; 
 
     void Start()
     {
@@ -29,7 +30,6 @@ public class CameraFollow : MonoBehaviour
 
     void Update()
     {
-        // Check for W key input
         if (Input.GetKeyDown(KeyCode.W))
         {
             targetOffset = originalOffSet + new Vector2(0, viewAbove);
@@ -39,7 +39,15 @@ public class CameraFollow : MonoBehaviour
             targetOffset = originalOffSet;
         }
 
-        // Smoothly interpolate between current offset and target offset
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            targetOffset = originalOffSet + new Vector2(0, -viewDown);
+        }
+        else if (Input.GetKeyUp(KeyCode.S))
+        {
+            targetOffset = originalOffSet;
+        }
+
         offset = Vector3.Lerp(offset, targetOffset, verticalMoveSpeed * Time.deltaTime);
     }
     void FixedUpdate()

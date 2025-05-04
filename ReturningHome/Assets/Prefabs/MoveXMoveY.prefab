@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8163625262269695348}
   - component: {fileID: 9087366192390432964}
   - component: {fileID: 1737966587248942901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MoveXMoveY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
