@@ -137,6 +137,8 @@ public class ArmMechanic : MonoBehaviour
 
             if (_trans != null)
             {
+                _trans.constraints = RigidbodyConstraints2D.None;
+                _trans.constraints = RigidbodyConstraints2D.FreezeRotation;
                 Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(),_trans.GetComponent<Collider2D>(),true);
             }
         }
@@ -146,6 +148,8 @@ public class ArmMechanic : MonoBehaviour
             joint.enabled = false;
             _trans.linearVelocity = Vector2.zero;
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(),_trans.GetComponent<Collider2D>(),false);
+            _trans.constraints = RigidbodyConstraints2D.FreezePositionX;
+            _trans.constraints = RigidbodyConstraints2D.FreezeRotation;
             _trans = null;
             lineRenderer.enabled = false;
         }

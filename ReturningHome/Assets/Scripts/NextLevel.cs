@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    [SerializeField] private Object nextLevel; 
+    [SerializeField] private string nextLevel; 
     private Collider2D playerCO;
 
     void Start()
@@ -15,7 +15,7 @@ public class NextLevel : MonoBehaviour
     {
         if(collision == playerCO)
         {
-            SceneManager.LoadScene(nextLevel.name);
+            SceneManager.LoadScene(nextLevel);
         }
     }
 }
