@@ -1,23 +1,24 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CameraInvert : MonoBehaviour
+public class BearAppear : MonoBehaviour
 {
+    [SerializeField] private GameObject bearPrefab;
+    [SerializeField] private Transform instantPos;
     private GameObject playerGO;
     private Collider2D playerCO;
-    private CameraFollow cam;
 
     void Start()
     {
         playerGO = FindAnyObjectByType<Player>().GameObject();
         playerCO = playerGO.GetComponent<Collider2D>();
-        cam = FindAnyObjectByType<CameraFollow>();
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision == playerCO)
+        if (collision == playerCO)
         {
-            cam.Invert = true;
+            Instantiate(bearPrefab, instantPos);
+            Destroy(gameObject);
         }
     }
 }
