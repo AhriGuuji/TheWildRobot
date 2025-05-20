@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float      viewDown;
     [SerializeField] private float      maxSpeed;
     [SerializeField] private float      verticalMoveSpeed;
-    public bool Invert{get; set;}
+    public bool Invert {get; set;}
     private Vector2 originalOffSet;
     private Vector2 targetOffset;
     private float originalXOffset;
