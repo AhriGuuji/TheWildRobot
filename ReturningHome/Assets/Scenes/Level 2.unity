@@ -1463,7 +1463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3457004829249767096, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
       propertyPath: leftLimite
-      value: -1862.1
+      value: -88
       objectReference: {fileID: 0}
     - target: {fileID: 3457004829249767096, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
       propertyPath: rightLimite
@@ -1488,7 +1488,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5125532856475731151, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1690535689}
   m_SourcePrefab: {fileID: 100100000, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
 --- !u!1001 &938520582
 PrefabInstance:
@@ -2258,6 +2261,10 @@ PrefabInstance:
       propertyPath: rotatePointLayer.m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 421404069319504167, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6419
@@ -2376,6 +2383,24 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
+--- !u!1 &1690535683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5125532856475731151, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
+  m_PrefabInstance: {fileID: 687648978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1690535689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690535683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3deca9495066d841bbb9a865528163f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cam: {fileID: 0}
 --- !u!1001 &1856508027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27055,7 +27080,7 @@ GameObject:
   - component: {fileID: 8615514635435618025}
   - component: {fileID: 8703134133435450202}
   m_Layer: 6
-  m_Name: Rotate
+  m_Name: RotateAround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27227,7 +27252,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6545, y: -40, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -32744,7 +32769,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7824835122581952615, guid: 42063c2280237c746a9ed8964d52c655, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -32879,7 +32905,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 1
+  m_Constraints: 5
 --- !u!212 &8703134133435450201
 SpriteRenderer:
   m_ObjectHideFlags: 0

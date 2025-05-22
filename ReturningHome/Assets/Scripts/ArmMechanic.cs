@@ -26,16 +26,14 @@ public class ArmMechanic : MonoBehaviour
     private bool grapHook = false;
 
     [Header("Line Renderer Settings")]
-    [SerializeField] private LineRenderer lineRenderer; // Reference to the LineRenderer component
-    [SerializeField] private Color lineColor = Color.white; // Color of the line
-    [SerializeField] private Material lineMaterial;
-    [SerializeField] private float lineWidth = 20f; // Width of the line
+    [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private GameObject _arm;
 
     [Header("Rotation Settings")]
     [SerializeField] private float rotateSpeed = 45f;
     [SerializeField] private float rotateDetectorRadius;
     [SerializeField] private LayerMask rotatePointLayer;
+    private bool rotateAround;
     private bool rotate;
     private Rigidbody2D playerRB;
     private Camera _cam;
@@ -43,17 +41,6 @@ public class ArmMechanic : MonoBehaviour
 
     void Start()
     {
-        if (lineRenderer == null)
-        {
-            lineRenderer = gameObject.AddComponent<LineRenderer>();
-        }
-        lineRenderer.startColor = lineColor;
-        lineRenderer.endColor = lineColor;
-        lineRenderer.startWidth = lineWidth;
-        lineRenderer.endWidth = lineWidth;
-        lineRenderer.positionCount = 2; // Two points: arm pivot and held object
-        lineRenderer.enabled = false; // Disable the line initially
-
         _cam = Camera.main;
         playerRB = gameObject.GetComponent<Rigidbody2D>();
         joint = gameObject.GetComponent<DistanceJoint2D>();
@@ -74,10 +61,12 @@ public class ArmMechanic : MonoBehaviour
                 _trans = hit.transform.GetComponent<Rigidbody2D>();
                 _trans_point = hit.point;
                 _trans_point.z = 0;
+                
                 moveX = hit.transform.gameObject.name.Contains("MoveX");
                 moveY = hit.transform.gameObject.name.Contains("MoveY");
                 grappling = hit.transform.gameObject.name.Contains("Grappling");
                 grapHook = hit.transform.gameObject.name.Contains("GrapHook");
+                rotateAround = hit.transform.gameObject.name.Contains("RotateAround");
                 rotate = hit.transform.gameObject.name.Contains("Rotate");
             }
         }
@@ -88,6 +77,7 @@ public class ArmMechanic : MonoBehaviour
             Vector3 current = _trans.transform.position;
             mousepos.z = current.z;
             Vector3 newPos = current;
+            
             if (moveX)
             {
                 newPos.x = mousepos.x;
@@ -120,15 +110,26 @@ public class ArmMechanic : MonoBehaviour
                 stopMov.enabled = true;
             }
 
-            if (rotate && Input.GetKey(KeyCode.E))
+            if (rotateAround && Input.GetKey(KeyCode.Q))
             {
                 Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
                 _trans.transform.RotateAround(rotatePoint.transform.position, Vector3.forward, rotateSpeed * Time.deltaTime);
             }
-            if (rotate && Input.GetKey(KeyCode.Q))
+            if (rotateAround && Input.GetKey(KeyCode.E))
             {
                 Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
                 _trans.transform.RotateAround(rotatePoint.transform.position, Vector3.forward, -rotateSpeed * Time.deltaTime);
+            }
+
+            if (rotate && Input.GetKey(KeyCode.Q))
+            {
+                Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
+                _trans.transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
+            }
+            if (rotate && Input.GetKey(KeyCode.E))
+            {
+                Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
+                _trans.transform.Rotate(Vector3.forward, -rotateSpeed * Time.deltaTime);
             }
 
             float baseSpeedX = 0;
@@ -164,8 +165,8 @@ public class ArmMechanic : MonoBehaviour
         {
             stopMov.enabled = true;
             joint.enabled = false;
-            _trans.linearVelocity = Vector2.zero;
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), _trans.GetComponent<Collider2D>(), false);
+            _trans.linearVelocity = Vector2.zero;
             _trans.constraints = RigidbodyConstraints2D.FreezePositionX;
             _trans.constraints = RigidbodyConstraints2D.FreezeRotation;
             _trans = null;
@@ -176,9 +177,8 @@ public class ArmMechanic : MonoBehaviour
         {
             if (_trans != null)
             {
-                // Set the line's start and end points
-                lineRenderer.SetPosition(0, _arm.transform.position); // Start at the arm pivot
-                lineRenderer.SetPosition(1, _trans.transform.position); // End at the held object
+                lineRenderer.SetPosition(0, _arm.transform.position);
+                lineRenderer.SetPosition(1, _trans.transform.position); 
             }
         }
     }
