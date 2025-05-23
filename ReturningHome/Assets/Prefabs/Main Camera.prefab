@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8861429235015403010}
   - component: {fileID: 6421485460674980934}
   - component: {fileID: 3457004829249767096}
+  - component: {fileID: 1462506797300124147}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -70,7 +71,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 75
+  orthographic size: 150
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -152,12 +153,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   targetEntity: {fileID: 0}
-  offset: {x: 50, y: 35, z: 0}
+  offset: {x: 50, y: 75, z: 0}
   viewAbove: 200
   viewDown: 200
   maxSpeed: 150
   verticalMoveSpeed: 0.5
-  topLimite: 863.1
-  bottomLimite: -351.16
-  leftLimite: -25
-  rightLimite: 4306
+  topLimite: 804.5
+  bottomLimite: -597.5
+  leftLimite: -88
+  rightLimite: 6883
+--- !u!114 &1462506797300124147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5125532856475731151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3deca9495066d841bbb9a865528163f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cam: {fileID: 6295653460784477039}
+  _offset: {fileID: 3457004829249767096}
+  _zoomMin: 150
+  _zoomMax: 250
+  _zoomMultiplayer: 20
+  _zoomSpeed: 5
+  _zoomTimer: 0.25
+  _offsetMax: 150
+  _getToOffsetTargetSpeed: 1

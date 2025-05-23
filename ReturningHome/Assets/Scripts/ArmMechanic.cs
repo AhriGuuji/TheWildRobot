@@ -1,191 +1,196 @@
-using Unity.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.UI;
 
 
 public class ArmMechanic : MonoBehaviour
 {
 
     [Header("General")]
-    [SerializeField] private LayerMask mask;
-    [SerializeField] private float followThreshold = 1f;
-    private Rigidbody2D _trans;
-    private bool moveX = false;
-    private bool moveY = false;
+    [SerializeField] private LayerMask _grableMask;
+    [SerializeField] private float _followThreshold = 1f;
+    private Rigidbody2D _grabbedObject;
+    private bool _moveObjectXAxis = false;
+    private bool _moveObjectYAxis = false;
+    private Rigidbody2D _playerRigidBody2D;
+    private Camera _cam;
+    private Player _playerMov;
+    [Header("Object Names")]
+    [SerializeField] private string _moveXObject;
+    [SerializeField] private string _moveYObject;
+    [SerializeField] private string _pushPlayerObject;
+    [SerializeField] private string _swingPlayerObject;
+    [SerializeField] private string _rotateAroundAPointObject;
+    [SerializeField] private string _rotateItselfObject;
 
-    [Header("Grapple Settings")]
-    [SerializeField] private Vector3 grapVelocity;
-    private bool grappling = false;
+    [Header("Push Yourself Towards Object Settings")]
+    [SerializeField] private Vector3 _pushYourselfVelocity;
+    private bool _canPushYourself = false;
 
     [Header("Grappling Hook")]
-    [SerializeField] private float grappleLenght;
-    private Vector3 _trans_point;
-    private DistanceJoint2D joint;
-    private bool grapHook = false;
+    [SerializeField] private float _lenghtOfTheArmToSwing;
+    [SerializeField] private DistanceJoint2D _joint2D;
+    private Vector3 _transPoint;
+    private bool _canSwing = false;
 
     [Header("Line Renderer Settings")]
-    [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private LineRenderer _armLine;
     [SerializeField] private GameObject _arm;
 
     [Header("Rotation Settings")]
-    [SerializeField] private float rotateSpeed = 45f;
-    [SerializeField] private float rotateDetectorRadius;
-    [SerializeField] private LayerMask rotatePointLayer;
-    private bool rotateAround;
-    private bool rotate;
-    private Rigidbody2D playerRB;
-    private Camera _cam;
-    private Player stopMov;
+    [SerializeField] private float _rotateSpeed = 45f;
+    [SerializeField] private float _rotateDetectorRadius;
+    [SerializeField] private LayerMask _rotatePointLayer;
+    private bool _rotateTowardsAPoint;
+    private bool _rotateItself;
 
     void Start()
     {
         _cam = Camera.main;
-        playerRB = gameObject.GetComponent<Rigidbody2D>();
-        joint = gameObject.GetComponent<DistanceJoint2D>();
-        joint.enabled = false;
-
-        stopMov = GetComponent<Player>();
+        _playerRigidBody2D = GetComponent<Rigidbody2D>();
+        _joint2D.enabled = false;
+        _playerMov = GetComponent<Player>();
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 mousePosition = _cam.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 _mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
 
-            RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector3.zero, Mathf.Infinity, mask);
+            RaycastHit2D hit = Physics2D.Raycast(_mousePos, Vector3.zero, Mathf.Infinity, _grableMask);
             if (hit.collider != null)
             {
-                _trans = hit.transform.GetComponent<Rigidbody2D>();
-                _trans_point = hit.point;
-                _trans_point.z = 0;
-                
-                moveX = hit.transform.gameObject.name.Contains("MoveX");
-                moveY = hit.transform.gameObject.name.Contains("MoveY");
-                grappling = hit.transform.gameObject.name.Contains("Grappling");
-                grapHook = hit.transform.gameObject.name.Contains("GrapHook");
-                rotateAround = hit.transform.gameObject.name.Contains("RotateAround");
-                rotate = hit.transform.gameObject.name.Contains("Rotate");
+                Debug.Log(hit.transform.name);
+                _grabbedObject = hit.transform.GetComponent<Rigidbody2D>();
+                _transPoint = hit.point;
+                _transPoint.z = 0;
+
+                _moveObjectXAxis = hit.transform.gameObject.name.Contains(_moveXObject);
+                _moveObjectYAxis = hit.transform.gameObject.name.Contains(_moveYObject);
+                _canPushYourself = hit.transform.gameObject.name.Contains(_pushPlayerObject);
+                _canSwing = hit.transform.gameObject.name.Contains(_swingPlayerObject);
+                _rotateTowardsAPoint = hit.transform.gameObject.name.Contains(_rotateAroundAPointObject);
+                _rotateItself = hit.transform.gameObject.name.Contains(_rotateItselfObject);
+
+                _grabbedObject.constraints = RigidbodyConstraints2D.None;
+                _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation;
+                Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), _grabbedObject.GetComponent<Collider2D>(), true);
             }
         }
 
-        if (Input.GetMouseButton(0) && _trans != null)
+        if (Input.GetMouseButton(0) &&_grabbedObject != null)
         {
-            Vector3 mousepos = _cam.ScreenToWorldPoint(Input.mousePosition);
-            Vector3 current = _trans.transform.position;
-            mousepos.z = current.z;
-            Vector3 newPos = current;
+            _armLine.enabled = true;
+            Vector3 _mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 _currentObjectPos = _grabbedObject.transform.position;
+            _mousePos.z = _currentObjectPos.z;
+            Vector3 _newPos = _mousePos;
+            Vector2 _objectBaseSpeed = Vector2.zero;
+            float _dist = Vector3.Distance(_newPos, _currentObjectPos);
+            Debug.Log(_dist);
+
+            if (_moveObjectXAxis)
+            {
+                _newPos.x = _mousePos.x;
+            }
+            if (_moveObjectYAxis)
+            {
+                _newPos.y = _mousePos.y;
+            }
             
-            if (moveX)
+            if (_dist > _followThreshold)
             {
-                newPos.x = mousepos.x;
-            }
-            if (moveY)
-            {
-                newPos.y = mousepos.y;
-            }
-
-            if (grappling && Input.GetMouseButton(1))
-            {
-                stopMov.enabled = false;
-                Vector3 direction = -(gameObject.transform.position - current);
-                Vector3 moveDir = direction.normalized;
-                float x = moveDir.x * grapVelocity.x;
-                float y = moveDir.y * grapVelocity.y;
-                float z = 0f;
-                playerRB.linearVelocity = new Vector3(x, y, z);
-            }
-            if (grapHook && Input.GetMouseButton(1))
-            {
-                stopMov.enabled = false;
-                joint.connectedAnchor = _trans_point;
-                joint.enabled = true;
-                joint.distance = grappleLenght;
-            }
-            else if (Input.GetMouseButtonUp(1))
-            {
-                joint.enabled = false;
-                stopMov.enabled = true;
+                Debug.Log(_dist);
+                Vector3 _diff = (_newPos - _currentObjectPos).normalized;
+                float _threshold = (_dist - _followThreshold) / 720;
+                float _objectMoveSpeed = Mathf.Lerp(50f, 500f, _threshold);
+                _objectBaseSpeed.x = _diff.x * _objectMoveSpeed;
+                _objectBaseSpeed.y = _diff.y * _objectMoveSpeed;
             }
 
-            if (rotateAround && Input.GetKey(KeyCode.Q))
+            if (_moveObjectXAxis) { _grabbedObject.linearVelocity = new Vector2(_objectBaseSpeed.x, _grabbedObject.linearVelocity.y); }
+            if (_moveObjectYAxis) { _grabbedObject.linearVelocity = new Vector2(_grabbedObject.linearVelocityX, _objectBaseSpeed.y); }
+            if (_moveObjectXAxis && _moveObjectYAxis) { _grabbedObject.linearVelocity = _objectBaseSpeed; }
+
+            
+            if (Input.GetMouseButton(1))
             {
-                Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
-                _trans.transform.RotateAround(rotatePoint.transform.position, Vector3.forward, rotateSpeed * Time.deltaTime);
-            }
-            if (rotateAround && Input.GetKey(KeyCode.E))
-            {
-                Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
-                _trans.transform.RotateAround(rotatePoint.transform.position, Vector3.forward, -rotateSpeed * Time.deltaTime);
+                if (_canPushYourself)
+                {
+                    _playerMov.enabled = false;
+                    Vector3 direction = -(gameObject.transform.position - _currentObjectPos);
+                    Vector3 moveDir = direction.normalized;
+                    float x = moveDir.x * _pushYourselfVelocity.x;
+                    float y = moveDir.y * _pushYourselfVelocity.y;
+                    float z = 0f;
+                    _playerRigidBody2D.linearVelocity = new Vector3(x, y, z);
+                }
+
+                if (_canSwing)
+                {
+                    _playerMov.enabled = false;
+                    _joint2D.connectedAnchor = _transPoint;
+                    _joint2D.enabled = true;
+                    _joint2D.distance = _lenghtOfTheArmToSwing;
+                }
             }
 
-            if (rotate && Input.GetKey(KeyCode.Q))
+            if (Input.GetKey(KeyCode.Q))
             {
-                Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
-                _trans.transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
-            }
-            if (rotate && Input.GetKey(KeyCode.E))
-            {
-                Collider2D rotatePoint = Physics2D.OverlapCircle(transform.position, rotateDetectorRadius, rotatePointLayer);
-                _trans.transform.Rotate(Vector3.forward, -rotateSpeed * Time.deltaTime);
+                if (_rotateTowardsAPoint)
+                {
+                    Collider2D _rotateAroundPoint = Physics2D.OverlapCircle(transform.position, _rotateDetectorRadius, _rotatePointLayer);
+                    _grabbedObject.transform.RotateAround(_rotateAroundPoint.transform.position, Vector3.forward, _rotateSpeed * Time.deltaTime);
+                }
+
+                if (_rotateItself)
+                {
+                    _grabbedObject.transform.Rotate(Vector3.forward, _rotateSpeed * Time.deltaTime);
+                }
             }
 
-            float baseSpeedX = 0;
-            float baseSpeedY = 0;
-
-            lineRenderer.enabled = true;
-
-            float dist = Vector3.Distance(newPos, current); // / 700 300 = 0.5
-            if (dist > followThreshold)
+            if (Input.GetKey(KeyCode.E))
             {
-                Vector3 diff = (newPos - current).normalized;
-                //_trans.position += new Vector3(x, y, 0);
-                //float moveSpeed = dist > 16 ? 200f : 50f;
-                float t = (dist - followThreshold) / 720; // 720 being world view size on screen
-                float moveSpeed = Mathf.Lerp(50f, 500f, t); // 50 = speed on 0, 500 = speed on 1.
-                baseSpeedX = diff.x * moveSpeed;
-                baseSpeedY = diff.y * moveSpeed;
-                //Debug.Log($"{newPos}\n{current}/{diff}");                
+                if (_rotateTowardsAPoint)
+                {
+                    Collider2D _rotateAroundPoint = Physics2D.OverlapCircle(transform.position, _rotateDetectorRadius, _rotatePointLayer);
+                    _grabbedObject.transform.RotateAround(_rotateAroundPoint.transform.position, Vector3.forward, -_rotateSpeed * Time.deltaTime);
+                }
+
+                if (_rotateItself)
+                {
+                    _grabbedObject.transform.Rotate(Vector3.forward, -_rotateSpeed * Time.deltaTime);
+                }
             }
-            if (moveX) { _trans.linearVelocity = new Vector2(baseSpeedX, _trans.linearVelocity.y); }
-            if (moveY) { _trans.linearVelocity = new Vector2(_trans.linearVelocityX, baseSpeedY); }
-            if (moveX || moveY) { _trans.linearVelocity = new Vector2(baseSpeedX, baseSpeedY); }
+
             UpdateLineRenderer();
-
-            if (_trans != null)
-            {
-                _trans.constraints = RigidbodyConstraints2D.None;
-                _trans.constraints = RigidbodyConstraints2D.FreezeRotation;
-                Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), _trans.GetComponent<Collider2D>(), true);
-            }
         }
+
         if (Input.GetMouseButtonUp(0))
         {
-            stopMov.enabled = true;
-            joint.enabled = false;
-            Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), _trans.GetComponent<Collider2D>(), false);
-            _trans.linearVelocity = Vector2.zero;
-            _trans.constraints = RigidbodyConstraints2D.FreezePositionX;
-            _trans.constraints = RigidbodyConstraints2D.FreezeRotation;
-            _trans = null;
-            lineRenderer.enabled = false;
+            _playerMov.enabled = true;
+            _joint2D.enabled = false;
+            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), _grabbedObject.GetComponent<Collider2D>(), false);
+            _grabbedObject.linearVelocity = Vector2.zero;
+            _grabbedObject.constraints = RigidbodyConstraints2D.FreezePositionX;
+            _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation;
+            _grabbedObject = null;
+            _armLine.enabled = false;
         }
 
         void UpdateLineRenderer()
         {
-            if (_trans != null)
+            if (_grabbedObject != null)
             {
-                lineRenderer.SetPosition(0, _arm.transform.position);
-                lineRenderer.SetPosition(1, _trans.transform.position); 
+                _armLine.SetPosition(0, _arm.transform.position);
+                _armLine.SetPosition(1, _grabbedObject.transform.position);
             }
         }
     }
-
+     
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, rotateDetectorRadius);
+        Gizmos.DrawWireSphere(transform.position, _rotateDetectorRadius);
     }
 }
+
