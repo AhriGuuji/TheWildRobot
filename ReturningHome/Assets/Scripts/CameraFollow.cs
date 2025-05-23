@@ -13,10 +13,8 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float      viewDown;
     [SerializeField] private float      maxSpeed;
     [SerializeField] private float      verticalMoveSpeed;
-    public bool Invert {get; set;}
     private Vector2 originalOffSet;
     private Vector2 targetOffset;
-    private float originalXOffset;
 
     [Header("Camera BounderyBox")]
     [SerializeField] private float      topLimite = 1f;
@@ -26,39 +24,8 @@ public class CameraFollow : MonoBehaviour
 
     void Start()
     {
-        originalXOffset = offset.x;
         originalOffSet = offset;
         targetOffset = originalOffSet;
-    }
-
-    void Update()
-    {
-        if(Invert)
-        {
-            offset.x = -originalXOffset;
-        }  
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            targetOffset = originalOffSet + new Vector2(0, viewAbove);
-        }
-        else if (Input.GetKeyUp(KeyCode.W))
-        {
-            targetOffset = originalOffSet;
-        }
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            targetOffset = originalOffSet + new Vector2(0, -viewDown);
-        }
-        else if (Input.GetKeyUp(KeyCode.S))
-        {
-            targetOffset = originalOffSet;
-        }
-
-        offset = Vector3.Lerp(offset, targetOffset, verticalMoveSpeed * Time.deltaTime);
-
-        
     }
     void FixedUpdate()
     {
