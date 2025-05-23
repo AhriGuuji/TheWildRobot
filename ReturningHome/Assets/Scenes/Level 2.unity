@@ -477,7 +477,6 @@ GameObject:
   - component: {fileID: 229247958}
   - component: {fileID: 229247957}
   - component: {fileID: 229247956}
-  - component: {fileID: 229247955}
   - component: {fileID: 229247959}
   m_Layer: 0
   m_Name: Antena
@@ -486,18 +485,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &229247955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229247954}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5f7cd6f0f4e374c8f2d74836a531e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &229247956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1458,6 +1445,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3457004829249767096, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
+      propertyPath: offset.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3457004829249767096, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
       propertyPath: topLimite
       value: 804.5
       objectReference: {fileID: 0}
@@ -2400,7 +2391,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3deca9495066d841bbb9a865528163f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cam: {fileID: 0}
+  _cam: {fileID: 1690535693}
+  _offset: {fileID: 1690535690}
+  _zoomMin: 150
+  _zoomMax: 250
+  _zoomMultiplayer: 20
+  _zoomSpeed: 5
+  _zoomTimer: 0.25
+  _offsetMax: 150
+  _getToOffsetTargetSpeed: 1
+--- !u!114 &1690535690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3457004829249767096, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
+  m_PrefabInstance: {fileID: 687648978}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690535683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c1af41117e5b449bc53c94f172bcf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!20 &1690535693 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 6295653460784477039, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
+  m_PrefabInstance: {fileID: 687648978}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1856508027
 PrefabInstance:
   m_ObjectHideFlags: 0
