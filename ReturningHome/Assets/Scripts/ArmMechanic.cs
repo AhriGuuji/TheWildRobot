@@ -60,7 +60,6 @@ public class ArmMechanic : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(_mousePos, Vector3.zero, Mathf.Infinity, _grableMask);
             if (hit.collider != null)
             {
-                Debug.Log(hit.transform.name);
                 _grabbedObject = hit.transform.GetComponent<Rigidbody2D>();
                 _transPoint = hit.point;
                 _transPoint.z = 0;
@@ -72,7 +71,7 @@ public class ArmMechanic : MonoBehaviour
                 _rotateTowardsAPoint = hit.transform.gameObject.name.Contains(_rotateAroundAPointObject);
                 _rotateItself = hit.transform.gameObject.name.Contains(_rotateItselfObject);
 
-                _grabbedObject.constraints = RigidbodyConstraints2D.None;
+                _grabbedObject.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
                 Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), _grabbedObject.GetComponent<Collider2D>(), true);
             }
         }
@@ -86,7 +85,6 @@ public class ArmMechanic : MonoBehaviour
             Vector3 _newPos = _mousePos;
             Vector2 _objectBaseSpeed = Vector2.zero;
             float _dist = Vector3.Distance(_newPos, _currentObjectPos);
-            Debug.Log(_dist);
 
             if (_moveObjectXAxis)
             {
@@ -99,7 +97,6 @@ public class ArmMechanic : MonoBehaviour
             
             if (_dist > _followThreshold)
             {
-                Debug.Log(_dist);
                 Vector3 _diff = (_newPos - _currentObjectPos).normalized;
                 float _threshold = (_dist - _followThreshold) / 720;
                 float _objectMoveSpeed = Mathf.Lerp(50f, 500f, _threshold);
@@ -137,7 +134,7 @@ public class ArmMechanic : MonoBehaviour
             if (_rotateTowardsAPoint)
             {
                 _thisGameObjectDoesntNeedConstraits = true;
-                
+
                 if (Input.GetKey(KeyCode.Q))
                 {
                     Collider2D _rotateAroundPoint = Physics2D.OverlapCircle(transform.position, _rotateDetectorRadius, _rotatePointLayer);
