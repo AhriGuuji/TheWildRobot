@@ -1573,7 +1573,6 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -1723,8 +1722,6 @@ Transform:
 =======
 >>>>>>> parent of a38a72d (Level 2 updated)
 >>>>>>> 58404629d846388d67f0cbfd07190ee67ca19675
-=======
->>>>>>> parent of a38a72d (Level 2 updated)
 --- !u!1001 &938520582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2488,7 +2485,6 @@ PrefabInstance:
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -2515,13 +2511,6 @@ PrefabInstance:
       value: -131
 >>>>>>> parent of a38a72d (Level 2 updated)
 >>>>>>> 58404629d846388d67f0cbfd07190ee67ca19675
-=======
-      value: 6419
-      objectReference: {fileID: 0}
-    - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -131
->>>>>>> parent of a38a72d (Level 2 updated)
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2703,7 +2692,6 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -2713,8 +2701,6 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 6058677753586949638, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
   m_PrefabInstance: {fileID: 1585002316}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> parent of a38a72d (Level 2 updated)
 =======
 >>>>>>> parent of a38a72d (Level 2 updated)
 --- !u!1001 &1935377054
@@ -34606,7 +34592,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 687648978}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -34614,8 +34599,6 @@ SceneRoots:
   - {fileID: 625554402301616143}
   - {fileID: 881869091}
   - {fileID: 1151980310}
-=======
->>>>>>> parent of a38a72d (Level 2 updated)
 =======
 >>>>>>> parent of a38a72d (Level 2 updated)
   - {fileID: 7024817984662354906}
