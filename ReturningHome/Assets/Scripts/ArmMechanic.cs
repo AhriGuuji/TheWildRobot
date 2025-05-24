@@ -41,6 +41,7 @@ public class ArmMechanic : MonoBehaviour
     [SerializeField] private LayerMask _rotatePointLayer;
     private bool _rotateTowardsAPoint;
     private bool _rotateItself;
+    private bool _thisGameObjectDoesntNeedConstraits = false;
 
     void Start()
     {
@@ -72,7 +73,6 @@ public class ArmMechanic : MonoBehaviour
                 _rotateItself = hit.transform.gameObject.name.Contains(_rotateItselfObject);
 
                 _grabbedObject.constraints = RigidbodyConstraints2D.None;
-                _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation;
                 Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), _grabbedObject.GetComponent<Collider2D>(), true);
             }
         }
@@ -134,29 +134,31 @@ public class ArmMechanic : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(KeyCode.Q))
+            if (_rotateTowardsAPoint)
             {
-                if (_rotateTowardsAPoint)
+                _thisGameObjectDoesntNeedConstraits = true;
+                
+                if (Input.GetKey(KeyCode.Q))
                 {
                     Collider2D _rotateAroundPoint = Physics2D.OverlapCircle(transform.position, _rotateDetectorRadius, _rotatePointLayer);
                     _grabbedObject.transform.RotateAround(_rotateAroundPoint.transform.position, Vector3.forward, _rotateSpeed * Time.deltaTime);
                 }
 
-                if (_rotateItself)
-                {
-                    _grabbedObject.transform.Rotate(Vector3.forward, _rotateSpeed * Time.deltaTime);
-                }
-            }
-
-            if (Input.GetKey(KeyCode.E))
-            {
-                if (_rotateTowardsAPoint)
+                if (Input.GetKey(KeyCode.E))
                 {
                     Collider2D _rotateAroundPoint = Physics2D.OverlapCircle(transform.position, _rotateDetectorRadius, _rotatePointLayer);
                     _grabbedObject.transform.RotateAround(_rotateAroundPoint.transform.position, Vector3.forward, -_rotateSpeed * Time.deltaTime);
                 }
+            }
 
-                if (_rotateItself)
+            if (_rotateItself)
+            {
+                if (Input.GetKey(KeyCode.Q))
+                {
+                    _grabbedObject.transform.Rotate(Vector3.forward, _rotateSpeed * Time.deltaTime);
+                }
+
+                if (Input.GetKey(KeyCode.E))
                 {
                     _grabbedObject.transform.Rotate(Vector3.forward, -_rotateSpeed * Time.deltaTime);
                 }
@@ -171,7 +173,9 @@ public class ArmMechanic : MonoBehaviour
             _joint2D.enabled = false;
             Physics2D.IgnoreCollision(GetComponent<Collider2D>(), _grabbedObject.GetComponent<Collider2D>(), false);
             _grabbedObject.linearVelocity = Vector2.zero;
-            _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
+            if (!_thisGameObjectDoesntNeedConstraits)
+                _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
+            _thisGameObjectDoesntNeedConstraits = false;
             _grabbedObject = null;
             _armLine.enabled = false;
         }
