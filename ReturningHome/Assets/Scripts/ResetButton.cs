@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ResetButton : MonoBehaviour
 {
-    [SerializeField] private string _nextLevel;
+    [SerializeField] private string nextLevel;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -12,7 +12,7 @@ public class ResetButton : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            SceneManager.LoadScene(_nextLevel);
+            SceneManager.LoadScene(nextLevel);
         }
     }
 }
