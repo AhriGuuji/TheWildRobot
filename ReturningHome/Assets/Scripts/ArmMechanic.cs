@@ -171,8 +171,7 @@ public class ArmMechanic : MonoBehaviour
             _joint2D.enabled = false;
             Physics2D.IgnoreCollision(GetComponent<Collider2D>(), _grabbedObject.GetComponent<Collider2D>(), false);
             _grabbedObject.linearVelocity = Vector2.zero;
-            _grabbedObject.constraints = RigidbodyConstraints2D.FreezePositionX;
-            _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation;
+            _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
             _grabbedObject = null;
             _armLine.enabled = false;
         }
