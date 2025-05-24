@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/StartMenu.unity
     guid: 14310fb7dde54eb478f87f5041f4a94b
 =======
+=======
+>>>>>>> parent of 7b1b057 (Start Menu code is finished)
 =======
 >>>>>>> parent of 7b1b057 (Start Menu code is finished)
     path: Assets/Scenes/Level 2.unity
