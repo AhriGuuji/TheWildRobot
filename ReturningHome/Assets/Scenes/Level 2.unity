@@ -1710,6 +1710,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1719,6 +1720,9 @@ PrefabInstance:
 =======
 <<<<<<< Updated upstream
 >>>>>>> parent of abe8c4d (Saving level 2)
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of 0d3896d (Resolving Conflits)
 --- !u!1 &881869088
 =======
 --- !u!1 &762303311
@@ -1814,9 +1818,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of abe8c4d (Saving level 2)
+=======
+>>>>>>> parent of 0d3896d (Resolving Conflits)
 =======
   m_GameObject: {fileID: 762303311}
   serializedVersion: 2
@@ -1880,6 +1887,7 @@ Transform:
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a38a72d (Level 2 updated)
 >>>>>>> 58404629d846388d67f0cbfd07190ee67ca19675
@@ -1887,6 +1895,8 @@ Transform:
 >>>>>>> parent of abe8c4d (Saving level 2)
 =======
 >>>>>>> parent of 9e33237 (still trying to fix editor bugs)
+=======
+>>>>>>> parent of 0d3896d (Resolving Conflits)
 --- !u!1001 &938520582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2716,6 +2726,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2725,6 +2736,9 @@ PrefabInstance:
 =======
 <<<<<<< Updated upstream
 >>>>>>> parent of abe8c4d (Saving level 2)
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of 0d3896d (Resolving Conflits)
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
@@ -2732,9 +2746,12 @@ PrefabInstance:
       value: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of abe8c4d (Saving level 2)
+=======
+>>>>>>> parent of 0d3896d (Resolving Conflits)
 =======
       value: 6321.278
       objectReference: {fileID: 0}
@@ -2742,6 +2759,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -20.817406
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2756,6 +2774,8 @@ PrefabInstance:
 >>>>>>> parent of abe8c4d (Saving level 2)
 =======
 >>>>>>> parent of 9e33237 (still trying to fix editor bugs)
+=======
+>>>>>>> parent of 0d3896d (Resolving Conflits)
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2976,6 +2996,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2985,6 +3006,9 @@ PrefabInstance:
 =======
 <<<<<<< Updated upstream
 >>>>>>> parent of abe8c4d (Saving level 2)
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of 0d3896d (Resolving Conflits)
 --- !u!82 &1870492799 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6058677753586949638, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
@@ -35201,6 +35225,7 @@ SceneRoots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -35210,6 +35235,9 @@ SceneRoots:
 =======
 <<<<<<< Updated upstream
 >>>>>>> parent of abe8c4d (Saving level 2)
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of 0d3896d (Resolving Conflits)
   - {fileID: 625554402301616143}
   - {fileID: 881869091}
   - {fileID: 1151980310}
