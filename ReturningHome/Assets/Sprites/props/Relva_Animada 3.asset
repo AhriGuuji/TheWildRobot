@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Relva_Animada 3
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 7759363257843326812, guid: 9f0b98f974fa91e4da75e88a8a5acb75, type: 3}
-  - {fileID: 2163535193364478040, guid: 9f0b98f974fa91e4da75e88a8a5acb75, type: 3}
+  - {fileID: -4267156590353898398, guid: 9f0b98f974fa91e4da75e88a8a5acb75, type: 3}
+  - {fileID: -8262182138846484127, guid: 9f0b98f974fa91e4da75e88a8a5acb75, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0
