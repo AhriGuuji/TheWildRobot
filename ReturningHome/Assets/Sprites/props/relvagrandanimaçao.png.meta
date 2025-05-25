@@ -137,12 +137,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_0"
       rect:
         serializedVersion: 2
-        x: 5
-        y: 63
-        width: 55
-        height: 29
+        x: 0
+        y: 64
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_1"
       rect:
         serializedVersion: 2
-        x: 67
-        y: 63
-        width: 57
-        height: 29
+        x: 64
+        y: 64
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_2"
       rect:
         serializedVersion: 2
-        x: 133
-        y: 63
-        width: 55
-        height: 29
+        x: 128
+        y: 64
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_3"
       rect:
         serializedVersion: 2
-        x: 195
-        y: 63
-        width: 57
-        height: 29
+        x: 192
+        y: 64
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_4"
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 57
-        height: 22
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_5"
       rect:
         serializedVersion: 2
-        x: 67
+        x: 64
         y: 0
-        width: 59
-        height: 22
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_6"
       rect:
         serializedVersion: 2
-        x: 132
+        x: 128
         y: 0
-        width: 57
-        height: 22
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: "relvagrandanima\xE7ao_7"
       rect:
         serializedVersion: 2
-        x: 195
+        x: 192
         y: 0
-        width: 60
-        height: 23
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c0f9ad6bbbf16374a9eba4acf2371943
     internalID: 0
     vertices: []
     indices: 
