@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DirtRun_itch_0: 1418582920959763490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
