@@ -120,6 +120,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &25194367
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,6 +158,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &49164816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -164,10 +167,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -184,14 +191,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2927.255
+=======
+      value: 2647.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 565.91284
+      value: 309.29428
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 2647.8738
@@ -204,6 +216,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -212,14 +227,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -232,6 +252,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -255,6 +278,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &49164817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -262,6 +286,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &153964054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -269,10 +295,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 525363434}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1456670862940190116, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_Name
@@ -309,14 +339,19 @@ PrefabInstance:
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -420.77466
+=======
+      value: 1055.4362
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -313.20673
+      value: 16.148949
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 9.304683
 =======
       value: 1055.4362
@@ -329,6 +364,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.w
@@ -336,6 +374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD
 <<<<<<< HEAD
       value: -0
       objectReference: {fileID: 0}
@@ -349,6 +388,13 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.z
@@ -376,6 +422,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &153964055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
@@ -383,6 +430,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &153970480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -390,10 +439,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -410,14 +463,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3335.255
+=======
+      value: 3055.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 848.9129
+      value: 592.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3055.8738
@@ -430,6 +488,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -438,14 +499,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -458,6 +524,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -481,6 +550,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &153970481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -488,6 +558,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1 &168696501
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +647,7 @@ Transform:
   m_GameObject: {fileID: 168696501}
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2048.2778, y: -490.8174, z: 11.902697}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -589,6 +662,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2146, y: -601, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &168696505
 Rigidbody2D:
@@ -747,6 +828,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 4654.309, y: 414.06738, z: 11.902697}
   m_LocalScale: {x: 32, y: 32, z: 0}
   m_ConstrainProportionsScale: 0
@@ -759,6 +841,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalPosition: {x: 4752.0312, y: 303.8848, z: 0}
+  m_LocalScale: {x: 32, y: 32, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &229247959
 MonoBehaviour:
@@ -803,6 +892,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 6447.278, y: -59.817406, z: 11.902697}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -815,6 +905,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalPosition: {x: 6545, y: -170, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &265014795
 Rigidbody2D:
@@ -906,10 +1003,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -926,14 +1027,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2774.1494
+=======
+      value: 2494.7683
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 595.9204
+      value: 339.30185
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 2494.7683
@@ -946,6 +1052,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -954,14 +1063,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -974,6 +1088,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -997,6 +1114,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &313807308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -1004,6 +1122,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1 &336775531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,10 +1584,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -1484,14 +1608,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3445.255
+=======
+      value: 3165.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 979.9129
+      value: 723.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3165.8738
@@ -1504,6 +1633,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1512,14 +1644,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -1532,6 +1669,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1554,6 +1694,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &353332703 stripped
 Transform:
@@ -1632,6 +1773,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1 &622280349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1857,7 @@ Transform:
   m_GameObject: {fileID: 622280349}
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1476.2108, y: -329.35568, z: 9.304683}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1728,6 +1872,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &622280352
 Rigidbody2D:
@@ -1763,10 +1915,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -1783,14 +1939,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3254.255
+=======
+      value: 2974.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 693.91284
+      value: 437.29428
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 2974.8738
@@ -1803,6 +1964,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1811,14 +1975,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -1831,6 +2000,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1854,6 +2026,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &666298418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -1861,6 +2034,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &687648978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1931,6 +2106,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1950,6 +2126,9 @@ PrefabInstance:
 =======
 --- !u!1 &881869088
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+--- !u!1 &881869088
+>>>>>>> parent of d04594c (organized level 2 in editor)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1958,14 +2137,18 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
   - component: {fileID: 881869091}
   - component: {fileID: 881869090}
   - component: {fileID: 881869089}
   m_Layer: 0
   m_Name: EventSystem
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   - component: {fileID: 762303312}
@@ -1974,15 +2157,20 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!114 &881869089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,20 +2219,26 @@ MonoBehaviour:
   m_DragThreshold: 10
 --- !u!4 &881869091
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!4 &762303312
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_GameObject: {fileID: 881869088}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2054,6 +2248,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2138,6 +2333,8 @@ Transform:
 >>>>>>> parent of 0d3896d (Resolving Conflits)
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &938520582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2145,10 +2342,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2165,14 +2366,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3676.255
+=======
+      value: 3396.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 979.9129
+      value: 723.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3396.8738
@@ -2185,6 +2391,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2193,14 +2402,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2213,6 +2427,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2236,6 +2453,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &938520583 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2243,6 +2461,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &988764015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2250,10 +2470,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2270,14 +2494,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3590.255
+=======
+      value: 3310.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1075.9128
+      value: 819.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3310.8738
@@ -2290,6 +2519,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2298,14 +2530,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2318,6 +2555,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2341,6 +2581,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &988764016 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2348,6 +2589,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1005551819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2355,10 +2598,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2375,14 +2622,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3820.255
+=======
+      value: 3540.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 883.9129
+      value: 627.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3540.8738
@@ -2395,6 +2647,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2403,14 +2658,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2423,6 +2683,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2446,6 +2709,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1005551820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2453,6 +2717,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1040324997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2460,10 +2726,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2480,14 +2750,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3911.255
+=======
+      value: 3631.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 819.9129
+      value: 563.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3631.8738
@@ -2500,6 +2775,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2508,14 +2786,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2528,6 +2811,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2551,6 +2837,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1040324998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2558,6 +2845,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1059990745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2565,10 +2854,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2585,14 +2878,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4312.255
+=======
+      value: 4032.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 627.9129
+      value: 371.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 4032.8738
@@ -2605,6 +2903,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2613,14 +2914,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2633,6 +2939,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2656,6 +2965,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1059990746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2663,6 +2973,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1133106020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2670,10 +2982,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2690,14 +3006,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4152.255
+=======
+      value: 3872.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 659.9129
+      value: 403.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3872.8738
@@ -2710,6 +3031,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2718,14 +3042,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2738,6 +3067,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2761,6 +3093,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1133106021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2768,6 +3101,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1151980310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2775,18 +3110,23 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 25194368}
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1912.483
+      value: 2010.2052
       objectReference: {fileID: 0}
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -56.22187
+      value: -166.40446
       objectReference: {fileID: 0}
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 12.142805
 =======
     m_TransformParent: {fileID: 0}
@@ -2803,6 +3143,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.2401087
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0.2401087
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2811,14 +3154,19 @@ PrefabInstance:
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2831,6 +3179,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2862,6 +3213,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1151980311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1046753377826868661, guid: 75f77de9e32e8e049a6b0803db2d6c3c, type: 3}
@@ -2869,6 +3221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1166430543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2876,10 +3230,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -2896,14 +3254,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6428.381
+=======
+      value: 6149
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 303.6186
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 6149
@@ -2916,6 +3279,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2924,14 +3290,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -2944,6 +3315,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2967,6 +3341,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1166430544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -2974,6 +3349,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1228479829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2981,10 +3358,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -3001,14 +3382,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3367.255
+=======
+      value: 3087.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 848.9129
+      value: 592.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3087.8738
@@ -3021,6 +3407,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3029,14 +3418,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3049,6 +3443,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3072,6 +3469,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1228479830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -3079,6 +3477,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1350479591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3086,10 +3486,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 525363434}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1456670862940190116, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_Name
@@ -3106,14 +3510,19 @@ PrefabInstance:
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -1024.7747
+=======
+      value: 451.43616
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -316.2067
+      value: 13.148975
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 9.304683
 =======
       value: 451.43616
@@ -3126,6 +3535,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3134,14 +3546,19 @@ PrefabInstance:
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3154,6 +3571,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3173,6 +3593,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1350479592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4419141805027780680, guid: c54d4d9f0b622b347bc0b74304a90072, type: 3}
@@ -3180,6 +3601,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!4 &1430958464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
@@ -3197,10 +3620,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -3217,14 +3644,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3369.381
+=======
+      value: 3090
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -47.38141
+      value: -304
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3090
@@ -3237,6 +3669,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3245,14 +3680,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3265,6 +3705,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3288,6 +3731,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1552783258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -3295,12 +3739,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1585002316
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 25194368}
     m_Modifications:
@@ -3328,11 +3775,18 @@ PrefabInstance:
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.x
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+      propertyPath: m_LocalPosition.x
+>>>>>>> parent of d04594c (organized level 2 in editor)
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3376,6 +3830,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3384,14 +3844,19 @@ PrefabInstance:
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3404,6 +3869,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3433,10 +3901,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -3453,14 +3925,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3130.255
+=======
+      value: 2850.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 531.91284
+      value: 275.29428
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 2850.8738
@@ -3473,6 +3950,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3481,14 +3961,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3501,6 +3986,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3523,6 +4011,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1620626901 stripped
 Transform:
@@ -3563,6 +4052,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &1856508027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3570,10 +4061,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -3590,14 +4085,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4217.255
+=======
+      value: 3937.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 531.9129
+      value: 275.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3937.8738
@@ -3610,6 +4110,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3618,14 +4121,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3638,6 +4146,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3665,6 +4176,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3679,10 +4191,13 @@ PrefabInstance:
 >>>>>>> parent of 0d3896d (Resolving Conflits)
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!82 &1870492799 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6058677753586949638, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
   m_PrefabInstance: {fileID: 1585002316}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 --- !u!4 &1856508028 stripped
@@ -3692,6 +4207,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1935377054
 PrefabInstance:
@@ -3700,10 +4217,14 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 809583031}
 =======
     m_TransformParent: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
     m_Modifications:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalScale.x
@@ -3720,14 +4241,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4006.255
+=======
+      value: 3726.8738
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 720.9129
+      value: 464.2943
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.079278134
 =======
       value: 3726.8738
@@ -3740,6 +4266,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3748,14 +4277,19 @@ PrefabInstance:
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0
 =======
       value: 0
@@ -3768,6 +4302,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+      value: 0
+>>>>>>> parent of d04594c (organized level 2 in editor)
       objectReference: {fileID: 0}
     - target: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3791,6 +4328,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfede889bd21204418e57d86b52ac422, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1935377055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127632130656635229, guid: dfede889bd21204418e57d86b52ac422, type: 3}
@@ -3798,6 +4336,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1 &1986145715
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,6 +4364,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 4502.278, y: 420.1826, z: 11.902697}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3836,6 +4377,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalPosition: {x: 4600, y: 310, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2125410949
 GameObject:
@@ -3951,6 +4499,7 @@ Transform:
   m_GameObject: {fileID: 2125410949}
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7179.278, y: -170.81741, z: 11.902697}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3965,6 +4514,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7277, y: -281, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &175638841273411926
 Transform:
@@ -30298,6 +30855,7 @@ Transform:
   m_GameObject: {fileID: 2142475238707098505}
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6447.278, y: 70.182594, z: 11.902697}
   m_LocalScale: {x: 1, y: 3, z: 1}
@@ -30312,6 +30870,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6545, y: -40, z: 0}
+  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3863520161806349358
 GameObject:
@@ -35663,12 +36229,17 @@ Transform:
   m_GameObject: {fileID: 456957683049552174}
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1476.2108, y: -329.35568, z: 9.304683}
 =======
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35681,10 +36252,14 @@ Transform:
   - {fileID: 5760098280707340447}
   - {fileID: 175638841273411926}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 762303312}
 =======
   m_Father: {fileID: 0}
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+  m_Father: {fileID: 0}
+>>>>>>> parent of d04594c (organized level 2 in editor)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!19719996 &7588422039862320959
 TilemapCollider2D:
@@ -35725,7 +36300,10 @@ TilemapCollider2D:
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!1001 &7733660006100399876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35788,7 +36366,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42063c2280237c746a9ed8964d52c655, type: 3}
+<<<<<<< HEAD
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
 --- !u!483693784 &7734480717391709491
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -36031,6 +36612,7 @@ SceneRoots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -36045,6 +36627,8 @@ SceneRoots:
 >>>>>>> parent of 0d3896d (Resolving Conflits)
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
   - {fileID: 625554402301616143}
   - {fileID: 881869091}
   - {fileID: 1151980310}
@@ -36078,6 +36662,7 @@ SceneRoots:
   - {fileID: 3809844626429357669}
   - {fileID: 622280351}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 25194368}
   - {fileID: 611901351}
@@ -36085,3 +36670,5 @@ SceneRoots:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 6e09082 (Resolving Conflits)
+=======
+>>>>>>> parent of d04594c (organized level 2 in editor)
