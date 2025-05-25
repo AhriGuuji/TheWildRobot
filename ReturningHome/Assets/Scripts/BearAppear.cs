@@ -1,23 +1,16 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class BearAppear : MonoBehaviour
 {
-    [SerializeField] private GameObject bearPrefab;
-    [SerializeField] private Transform instantPos;
-    private GameObject playerGO;
-    private Collider2D playerCO;
+    [SerializeField] private GameObject _bear;
+    [SerializeField] private Transform _bearPos;
+    [SerializeField] private GameObject _player;
 
-    void Start()
-    {
-        playerGO = FindAnyObjectByType<Player>().GameObject();
-        playerCO = playerGO.GetComponent<Collider2D>();
-    }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision == playerCO)
+        if (collision == _player)
         {
-            Instantiate(bearPrefab, instantPos);
+            Instantiate(_bear, _bearPos);
             Destroy(gameObject);
         }
     }

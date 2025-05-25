@@ -534,8 +534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aa5de36b0bd04c4ca25adbfc30abf20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bearPrefab: {fileID: 2355781826180066716, guid: 45ee22cf2ef87754987a296de6fcba74, type: 3}
-  instantPos: {fileID: 1986145716}
+  _bear: {fileID: 2355781826180066716, guid: 45ee22cf2ef87754987a296de6fcba74, type: 3}
+  _bearPos: {fileID: 1986145716}
+  _player: {fileID: 1585002317}
 --- !u!1 &265014792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2797,6 +2798,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+--- !u!1 &1585002317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8157971937484298341, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+  m_PrefabInstance: {fileID: 1585002316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1620626900
 PrefabInstance:
   m_ObjectHideFlags: 0
