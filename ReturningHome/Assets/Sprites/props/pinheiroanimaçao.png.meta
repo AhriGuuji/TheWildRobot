@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "pinheiroanima\xE7ao_0": 1218056440728211456
+      "pinheiroanima\xE7ao_1": -8405139237884504957
+      "pinheiroanima\xE7ao_2": 6878496042961904925
+      "pinheiroanima\xE7ao_3": 4458204068971263729
+      "pinheiroanima\xE7ao_4": 2172653757965853250
+      "pinheiroanima\xE7ao_5": 681441556147048346
+      "pinheiroanima\xE7ao_6": 5310342256535952157
+      "pinheiroanima\xE7ao_7": 7877040320900347248
+      "pinheiroanima\xE7ao_8": -4631140468295853220
+      "pinheiroanima\xE7ao_9": 5964301552359859512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
