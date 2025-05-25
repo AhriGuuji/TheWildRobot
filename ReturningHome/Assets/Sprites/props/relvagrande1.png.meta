@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      relvagrande1_0: -8277520453646761161
+      relvagrande1_1: 7443778377714779652
+      relvagrande1_2: 941407274713064060
+      relvagrande1_3: 5052634059955748293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
