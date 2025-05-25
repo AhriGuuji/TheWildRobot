@@ -1,10 +1,9 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CheckPointManager : MonoBehaviour
 {
     public static CheckPointManager Instance;
-    private Vector2 spawnPoint;
+    private Vector2 _spawnPoint;
 
     private void Awake()
     {
@@ -18,22 +17,22 @@ public class CheckPointManager : MonoBehaviour
             Destroy(gameObject);
         }
         
-        spawnPoint = FindAnyObjectByType<Player>().GameObject().transform.position;
+        _spawnPoint = FindAnyObjectByType<Player>().gameObject.transform.position;
     }
 
-    public void SetSpawnPoint(Vector2 newSpawnPoint)
+    public void SetSpawnPoint(Vector2 _newSpawnPoint)
     {
-        spawnPoint = newSpawnPoint;
+        _spawnPoint = _newSpawnPoint;
     }
 
     public Vector2 GetSpawnPoint()
     {
-        return spawnPoint;
+        return _spawnPoint;
     }
 
     public void RespawnPlayer()
     {
-        GameObject player = FindAnyObjectByType<Player>().GameObject();
-        player.transform.position = spawnPoint;
+        GameObject _player = FindAnyObjectByType<Player>().gameObject;
+        _player.transform.position = _spawnPoint;
     }
 }

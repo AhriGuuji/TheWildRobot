@@ -18,11 +18,11 @@ public class DestroyPlayer : CheckPoint
     {
         if(collision == playerCo)
         {
-            if (HaveCheck == true)
+            if (_HaveCheck == true)
             {
                 playerGO.transform.position = CheckPointManager.Instance.GetSpawnPoint();
             }
-            else if (HaveCheck == false)
+            else if (_HaveCheck == false)
             {
                 playerGO.transform.position = CheckPointManager.Instance.GetSpawnPoint();
             }

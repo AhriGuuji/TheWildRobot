@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RunningAway : MonoBehaviour
+public class Fox : MonoBehaviour
 {
     [SerializeField] private Vector2 Velocity;
     [SerializeField] private Animator animator;

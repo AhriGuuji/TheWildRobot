@@ -3,17 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    [SerializeField] private string nextLevel; 
-    private Collider2D playerCO;
-
-    void Start()
-    {
-        playerCO = FindAnyObjectByType<Player>().GetComponent<Collider2D>();
-    }
+    [SerializeField] private string nextLevel;
+    private Player _player;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision == playerCO)
+        _player = collision.GetComponent<Player>();
+
+        if (_player)
         {
             SceneManager.LoadScene(nextLevel);
         }
