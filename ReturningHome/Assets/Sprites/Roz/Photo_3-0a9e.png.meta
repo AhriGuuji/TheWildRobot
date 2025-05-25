@@ -208,6 +208,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -972,7 +985,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Photo_3-0a9e_0: -8246977692304384446
+      Photo_3-0a9e_1: -2240171383232056113
+      Photo_3-0a9e_10: -8562272853930755165
+      Photo_3-0a9e_11: 1516190475857773209
+      Photo_3-0a9e_12: 8463068402209923821
+      Photo_3-0a9e_13: 4054914894451996350
+      Photo_3-0a9e_14: 4190452370971992761
+      Photo_3-0a9e_15: 4165977182808699189
+      Photo_3-0a9e_16: 4283869444278563076
+      Photo_3-0a9e_17: 6792973522876685263
+      Photo_3-0a9e_18: 5835376109986163486
+      Photo_3-0a9e_19: 1774840932918435072
+      Photo_3-0a9e_2: -8090569513315555789
+      Photo_3-0a9e_20: -5657288694493372563
+      Photo_3-0a9e_21: 3737505292209338404
+      Photo_3-0a9e_22: -3230894497169593203
+      Photo_3-0a9e_23: -5253006133780335837
+      Photo_3-0a9e_24: -512667559271487061
+      Photo_3-0a9e_25: -8192929073127595964
+      Photo_3-0a9e_26: -2558590451867511180
+      Photo_3-0a9e_27: 7604797082985901097
+      Photo_3-0a9e_28: -5526468330277285093
+      Photo_3-0a9e_29: -8875442200254771986
+      Photo_3-0a9e_3: 2435736023695695757
+      Photo_3-0a9e_30: 5580204640812226961
+      Photo_3-0a9e_31: -2272667858863614226
+      Photo_3-0a9e_32: -3731749470284875229
+      Photo_3-0a9e_33: -8165690867263474984
+      Photo_3-0a9e_4: 5973244344626076678
+      Photo_3-0a9e_5: -7394144159817605370
+      Photo_3-0a9e_6: -5672143687429220056
+      Photo_3-0a9e_7: 4577957100118946631
+      Photo_3-0a9e_8: 2638419805575682227
+      Photo_3-0a9e_9: -7587145629659130847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
