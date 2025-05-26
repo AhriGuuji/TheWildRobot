@@ -44,7 +44,9 @@ public class ArmMechanic : MonoBehaviour
     [SerializeField] private LineRenderer _armLine;
     [SerializeField] private GameObject _arm;
     [SerializeField] private Texture2D _cursorTexture;
+    [SerializeField] private float _correctArmAngle = 90f;
     [SerializeField] private float _armVelocity = 2f;
+    private bool _isGrabbing = false;
     private Quaternion _armRotation;
     private Vector3 _armDir;
     private float _angle;
@@ -62,16 +64,21 @@ public class ArmMechanic : MonoBehaviour
     {
         Vector3 _mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
 
-        
-        _armDir = (_mousePos-_arm.transform.position).normalized;
-        _armDir.z = 0;
-        _angle = Mathf.Atan2(_armDir.y, _armDir.x) * Mathf.Rad2Deg;
-        _armRotation = Quaternion.AngleAxis(_angle, Vector3.forward);
-        _arm.transform.rotation = Quaternion.Slerp(transform.rotation, _armRotation, _armVelocity * Time.deltaTime);
+        if (!_isGrabbing)
+        {
+            _arm.GetComponent<SpriteRenderer>().enabled = true;
+            _armDir = (_mousePos - _arm.transform.position).normalized;
+            _armDir.z = 0;
+            _angle = Mathf.Atan2(_armDir.y, _armDir.x) * Mathf.Rad2Deg;
+            _angle += _correctArmAngle;
+            _armRotation = Quaternion.AngleAxis(_angle, Vector3.forward);
+            _arm.transform.rotation = Quaternion.Slerp(_arm.transform.rotation, _armRotation, _armVelocity * Time.deltaTime);
+        }
+        else _arm.GetComponent<SpriteRenderer>().enabled = false;
+
 
         if (Input.GetMouseButtonDown(0))
         {
-
             RaycastHit2D hit = Physics2D.Raycast(_mousePos, Vector3.zero, Mathf.Infinity, _grableMask);
             if (hit.collider != null)
             {
@@ -94,6 +101,7 @@ public class ArmMechanic : MonoBehaviour
 
         if (Input.GetMouseButton(0) && _grabbedObject != null)
         {
+            _isGrabbing = true;
             _armLine.enabled = true;
             Vector3 _currentObjectPos = _grabbedObject.transform.position;
             _mousePos.z = _currentObjectPos.z;
@@ -192,6 +200,7 @@ public class ArmMechanic : MonoBehaviour
             _thisGameObjectDoesntNeedConstraits = false;
             _grabbedObject = null;
             _armLine.enabled = false;
+            _isGrabbing = false;
         }
 
         void UpdateLineRenderer()
