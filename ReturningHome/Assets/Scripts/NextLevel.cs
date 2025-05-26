@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    [SerializeField] private string nextLevel;
+    [SerializeField] private string _nextLevel;
     private Player _player;
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -12,7 +12,7 @@ public class NextLevel : MonoBehaviour
 
         if (_player)
         {
-            SceneManager.LoadScene(nextLevel);
+            SceneManager.LoadScene(_nextLevel);
         }
     }
 }

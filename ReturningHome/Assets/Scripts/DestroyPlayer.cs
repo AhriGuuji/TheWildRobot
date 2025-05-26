@@ -1,31 +1,16 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class DestroyPlayer : CheckPoint
+public class DestroyPlayer : MonoBehaviour
 {
-    private Player playerInstance;
-    private Collider2D playerCo;
-    private GameObject playerGO;
-
-    void Start()
-    {
-        playerInstance = FindAnyObjectByType<Player>();
-        playerGO = playerInstance.GameObject();
-        playerCo = playerGO.GetComponent<Collider2D>();
-    }
-
+    [SerializeField] private Player _player;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision == playerCo)
+        _player = collision.GetComponent<Player>();
+
+        if (_player)
         {
-            if (_HaveCheck == true)
-            {
-                playerGO.transform.position = CheckPointManager.Instance.GetSpawnPoint();
-            }
-            else if (_HaveCheck == false)
-            {
-                playerGO.transform.position = CheckPointManager.Instance.GetSpawnPoint();
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

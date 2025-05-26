@@ -1,4 +1,3 @@
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +5,7 @@ public class CheckPointManager : MonoBehaviour
 {
     public static CheckPointManager Instance;
     private Vector2 _spawnPoint;
+    [SerializeField] private Player _playerPrefab;
 
     private void Awake()
     {
@@ -18,8 +18,6 @@ public class CheckPointManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
-        _spawnPoint = FindAnyObjectByType<Player>().gameObject.transform.position;
     }
 
     public void SetSpawnPoint(Vector2 _newSpawnPoint)
@@ -30,11 +28,5 @@ public class CheckPointManager : MonoBehaviour
     public Vector2 GetSpawnPoint()
     {
         return _spawnPoint;
-    }
-
-    public void RespawnPlayer()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        FindAnyObjectByType<Player>().transform.position = GetSpawnPoint();   
     }
 }

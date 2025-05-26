@@ -83,6 +83,7 @@ public class ArmMechanic : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(_mousePos, Vector3.zero, Mathf.Infinity, _grableMask);
             if (hit.collider != null)
             {
+                Debug.Log(hit.transform.name);
                 _grabbedObject = hit.transform.GetComponent<Rigidbody2D>();
                 _transPoint = hit.point;
                 _transPoint.z = 0;

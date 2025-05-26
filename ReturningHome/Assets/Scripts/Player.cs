@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Player : Character
@@ -19,8 +20,10 @@ public class Player : Character
     {
         base.Start();
 
-        CheckPointManager.Instance.SetSpawnPoint(transform.position);
-        
+        if (CheckPointManager.Instance.GetSpawnPoint() != null)
+            transform.position = CheckPointManager.Instance.GetSpawnPoint();
+        else CheckPointManager.Instance.SetSpawnPoint(transform.position);
+
         originalGravity = rb.gravityScale;
     }
 
