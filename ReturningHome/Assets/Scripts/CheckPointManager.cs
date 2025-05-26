@@ -5,8 +5,6 @@ public class CheckPointManager : MonoBehaviour
 {
     public static CheckPointManager Instance;
     private Vector2 _spawnPoint;
-    [SerializeField] private Player _playerPrefab;
-
     private void Awake()
     {
         if (Instance == null)

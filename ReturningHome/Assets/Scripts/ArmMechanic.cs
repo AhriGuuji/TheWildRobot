@@ -51,6 +51,7 @@ public class ArmMechanic : MonoBehaviour
     private Quaternion _armRotation;
     private Vector3 _armDir;
     private float _angle;
+    private Vector2 _hotSpot;
 
     void Start()
     {
@@ -58,7 +59,8 @@ public class ArmMechanic : MonoBehaviour
         _playerRigidBody2D = GetComponent<Rigidbody2D>();
         _joint2D.enabled = false;
         _playerMov = GetComponent<Player>();
-        Cursor.SetCursor(_cursorTexture, Vector2.zero, CursorMode.Auto);
+        _hotSpot = new Vector2(_cursorTexture.width / 2f, _cursorTexture.height / 2f);
+        Cursor.SetCursor(_cursorTexture, _hotSpot, CursorMode.Auto);
     }
 
     void Update()
