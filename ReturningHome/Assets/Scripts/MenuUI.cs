@@ -1,10 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuUI : MonoBehaviour
 {
-    [SerializeField] private string _firstLevel;
+    public static MenuUI Instance;
     [SerializeField] private string _thisSceneName;
     [SerializeField] private Canvas _settingsMenu;
     [SerializeField] private Canvas _startMenu;
@@ -13,14 +14,34 @@ public class MenuUI : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     private float _volume = 1f;
 
-    //void Start()
-    //{
-    //    _settingsMenu.enabled = false;
-    //}
+    private void OnAwake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void Update()
+    {
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            _startMenu.enabled = false;
+            _gameUI.enabled = true;
+        }
+
+        if (_audioSource == null)
+            _audioSource = FindAnyObjectByType<AudioSource>();
+    }
 
     public void StartGame()
     {
-        SceneManager.LoadScene(_firstLevel);
+        SceneManager.LoadScene(1);
     }
 
     public void OpenSettings()
@@ -35,7 +56,7 @@ public class MenuUI : MonoBehaviour
     public void CloseSettings()
     {
         _settingsMenu.enabled = false;
-        if (SceneManager.GetActiveScene().name == _thisSceneName)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
             _startMenu.enabled = true;
         if (SceneManager.GetActiveScene().name.Contains("Level"))
             _gameUI.enabled = true;
