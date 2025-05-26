@@ -14,7 +14,7 @@ public class MenuUI : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     private float _volume = 1f;
 
-    private void OnAwake()
+    private void Awake()
     {
         if (Instance == null)
         {
