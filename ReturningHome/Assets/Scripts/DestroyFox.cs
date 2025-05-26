@@ -2,22 +2,14 @@ using UnityEngine;
 
 public class DestroyFox : MonoBehaviour
 {
-    private GameObject foxy;
-    private Collider2D foxCo;
-
-    void Update()
-    {
-        if (foxy == null)
-        {
-            foxy = GameObject.FindGameObjectWithTag("Fox");
-            foxCo = foxy.GetComponent<Collider2D>(); 
-        }
-    }
+    private Fox _fox;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision == foxCo)
+        _fox = collision.GetComponent<Fox>();
+
+        if (_fox)
         {
-            Destroy(foxy);
+            Destroy(_fox.gameObject);
         }
     }
 }

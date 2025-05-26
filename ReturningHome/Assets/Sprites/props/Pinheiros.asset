@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Pinheiros
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1218056440728211456, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: -8405139237884504957, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 6878496042961904925, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 4458204068971263729, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 2172653757965853250, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 681441556147048346, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 5310342256535952157, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 7877040320900347248, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: -4631140468295853220, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  - {fileID: 5964301552359859512, guid: edf3a72229c48e743ab5c6501ad479a7, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
