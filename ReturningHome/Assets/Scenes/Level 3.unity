@@ -2709,6 +2709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveY (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6281345637451419213, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6444561094996156651, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3152
@@ -2748,6 +2752,10 @@ PrefabInstance:
     - target: {fileID: 6444561094996156651, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7171769545068089796, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13698,11 +13706,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -89.19653
+      value: -96
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60.22278
+      value: -64
       objectReference: {fileID: 0}
     - target: {fileID: 1513723216469197145, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13736,6 +13744,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6058677753586949638, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058677753586949638, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d1e67f99a6fc19f43bd8dabbb5585a4b, type: 3}
+    - target: {fileID: 6058677753586949638, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1e67f99a6fc19f43bd8dabbb5585a4b, type: 3}
     - target: {fileID: 8157971937484298341, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
       propertyPath: m_Name
       value: Player
@@ -41178,7 +41198,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.43704516, g: 0.6148819, b: 0.89433956, a: 0}
+  m_BackGroundColor: {r: 0.4039216, g: 0.4901961, b: 0.7607844, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -43103,6 +43123,10 @@ PrefabInstance:
     - target: {fileID: 2279666253163616443, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
       propertyPath: m_Name
       value: MoveY
+      objectReference: {fileID: 0}
+    - target: {fileID: 6281345637451419213, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6444561094996156651, guid: acd544650a8ca88498d499a0d1d00b95, type: 3}
       propertyPath: m_LocalPosition.x
