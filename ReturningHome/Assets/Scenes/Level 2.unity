@@ -1387,6 +1387,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1462506797300124147, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
+      propertyPath: _zoomMax
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462506797300124147, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
       propertyPath: _background
       value: 
       objectReference: {fileID: 1205574885}
@@ -1408,7 +1412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6295653460784477039, guid: c4eda01e62a3e0e45b8412213bde89ae, type: 3}
       propertyPath: orthographic size
-      value: 75
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43799,7 +43803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ffeed6a6505bb41b797f084b674993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerPrefab: {fileID: 2036078638624096914, guid: 0cb4b2b2ef7f63f46aba93fc17ded826, type: 3}
 --- !u!19719996 &7588422039862320959
 TilemapCollider2D:
   m_ObjectHideFlags: 0
