@@ -1,16 +1,31 @@
 fileFormatVersion: 2
-guid: b89063ec4635a6145b29244ed1bf0d76
+guid: 27b31a249a1a0f443aa3355178f5f578
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4911779204711374678
-    second: porco espinho_0
+      213: 9143903527788757295
+    second: doninha 1_0
   - first:
-      213: 4574937384105674406
-    second: porco espinho_1
+      213: -5141410950379096692
+    second: doninha 1_1
   - first:
-      213: -5102354102993331670
-    second: porco espinho_2
+      213: 8160203445893629934
+    second: doninha 1_2
+  - first:
+      213: 3956266033100380040
+    second: doninha 1_3
+  - first:
+      213: -218100381634621166
+    second: doninha 1_4
+  - first:
+      213: -1087538692132952931
+    second: doninha 1_5
+  - first:
+      213: 908692116057104420
+    second: doninha 1_6
+  - first:
+      213: -7483544073047166134
+    second: doninha 1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,84 +130,137 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: porco espinho_0
+      name: doninha 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa0270846dad5dbb0800000000000000
-      internalID: -4911779204711374678
+      spriteID: f214a42efcba5ee70800000000000000
+      internalID: 9143903527788757295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porco espinho_1
+      name: doninha 1_1
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a60641df417d7f30800000000000000
-      internalID: 4574937384105674406
+      spriteID: c85b9522bf906a8b0800000000000000
+      internalID: -5141410950379096692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porco espinho_2
+      name: doninha 1_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
+        width: 32
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2a53dc0afbc039b0800000000000000
-      internalID: -5102354102993331670
+      spriteID: ee78867accdde3170800000000000000
+      internalID: 8160203445893629934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doninha 1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2119a43cbd629fcf0800000000000000
+      internalID: -218100381634621166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doninha 1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42028c34aa25c9c00800000000000000
+      internalID: 908692116057104420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doninha 1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c524fb8fbc137cc4db35c5a9c914f50a
+      internalID: 106485202
       vertices: []
       indices: 
       edges: []
@@ -201,7 +269,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6053c9dc208e754488b0946525151e68
+    spriteID: 8e8209a0a2098e841bb98e6707bba566
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +279,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      porco espinho_0: -4911779204711374678
-      porco espinho_1: 4574937384105674406
-      porco espinho_2: -5102354102993331670
+      doninha 1_0: 9143903527788757295
+      doninha 1_1: -5141410950379096692
+      doninha 1_2: 8160203445893629934
+      doninha 1_3: 3956266033100380040
+      doninha 1_4: -218100381634621166
+      doninha 1_5: -1087538692132952931
+      doninha 1_6: 908692116057104420
+      doninha 1_7: -7483544073047166134
+      doninha 1_8: 106485202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

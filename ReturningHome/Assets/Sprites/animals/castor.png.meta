@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -138,19 +138,19 @@ TextureImporter:
       name: castor_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 202eec9715fc03c60800000000000000
+      spriteID: 18e19350d94e71c48af72cbe59ed503a
       internalID: 7795958903821230594
       vertices: []
       indices: 
@@ -160,42 +160,20 @@ TextureImporter:
       name: castor_1
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 0
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de3f22057794b1e80800000000000000
+      spriteID: f569d5aa82e2f4149a4ca0898b8a6454
       internalID: -8206885119158193171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castor_2
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 22
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cf7adfb609c9b3f0800000000000000
-      internalID: -884454820975837242
       vertices: []
       indices: 
       edges: []
@@ -204,20 +182,42 @@ TextureImporter:
       name: castor_3
       rect:
         serializedVersion: 2
-        x: 70
+        x: 32
         y: 0
-        width: 21
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 20a315a188f654e70800000000000000
+      spriteID: d3f7fe1da6e3ba44f91e21a7919f84f6
       internalID: 9098801252519721474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castor_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba273965ba7ecb40b0b0433a14be5dd
+      internalID: 319817385
       vertices: []
       indices: 
       edges: []
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 58d819f05ed0053498804740b40235f7
     internalID: 0
     vertices: []
     indices: 
@@ -238,8 +238,10 @@ TextureImporter:
     nameFileIdTable:
       castor_0: 7795958903821230594
       castor_1: -8206885119158193171
-      castor_2: -884454820975837242
+      castor_2: -1818317846
       castor_3: 9098801252519721474
+      castor_4: -973767079
+      castor_5: 319817385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
