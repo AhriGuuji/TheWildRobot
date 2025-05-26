@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class MenuUI : MonoBehaviour
 {
     public static MenuUI Instance;
-    [SerializeField] private string _thisSceneName;
     [SerializeField] private Canvas _settingsMenu;
     [SerializeField] private Canvas _startMenu;
     [SerializeField] private Canvas _gameUI;
@@ -29,11 +28,13 @@ public class MenuUI : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if (SceneManager.GetActiveScene().name.Contains("Level"))
         {
             _startMenu.enabled = false;
             _gameUI.enabled = true;
         }
+        else if (SceneManager.GetActiveScene().name.Contains("Final"))
+            _gameUI.enabled = false;
 
         if (_audioSource == null)
             _audioSource = FindAnyObjectByType<AudioSource>();
