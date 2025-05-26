@@ -20,9 +20,9 @@ public class Player : Character
     {
         base.Start();
 
-        if (CheckPointManager.Instance.GetSpawnPoint() != null)
-            transform.position = CheckPointManager.Instance.GetSpawnPoint();
-        else CheckPointManager.Instance.SetSpawnPoint(transform.position);
+        if (CheckPointManager.Instance.GetSpawnPoint() != default)
+            gameObject.transform.position = CheckPointManager.Instance.GetSpawnPoint();
+        else CheckPointManager.Instance.SetSpawnPoint(gameObject.transform.position);
 
         originalGravity = rb.gravityScale;
     }
