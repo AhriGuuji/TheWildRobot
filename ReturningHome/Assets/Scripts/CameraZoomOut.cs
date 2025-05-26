@@ -28,7 +28,6 @@ public class CameraZoomOut : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(_scroll);
         _scroll = Input.GetAxis("Mouse ScrollWheel");
         _currentZoomSize += _scroll * _zoomMultiplayer;
 

@@ -21,7 +21,6 @@ public class CheckPoint : MonoBehaviour
             if (_HaveCheck == false)
             {
                 _HaveCheck = true;
-                Debug.Log($"got in here: {_HaveCheck}");
                 _StoredPos = _player.transform.position;
                 CheckPointManager.Instance.SetSpawnPoint(_StoredPos);
                 gameObject.GetComponent<Collider2D>().enabled = false;
@@ -29,7 +28,6 @@ public class CheckPoint : MonoBehaviour
 
             if (_HaveCheck == true)
             {
-                Debug.Log($"tell me more: {_HaveCheck}");
                 _StoredPos = new Vector3();
                 _StoredPos = _player.transform.position;
                 CheckPointManager.Instance.SetSpawnPoint(_StoredPos);

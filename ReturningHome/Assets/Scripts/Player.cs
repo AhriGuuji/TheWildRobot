@@ -19,6 +19,8 @@ public class Player : Character
     {
         base.Start();
 
+        CheckPointManager.Instance.SetSpawnPoint(transform.position);
+        
         originalGravity = rb.gravityScale;
     }
 
@@ -31,7 +33,7 @@ public class Player : Character
 
         Vector2 currentVelocity = rb.linearVelocity;
 
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             currentVelocity.x = moveDir * velocity.x * speed;
         }
@@ -39,7 +41,7 @@ public class Player : Character
         {
             currentVelocity.x = moveDir * velocity.x;
         }
-        
+
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -50,7 +52,7 @@ public class Player : Character
                 rb.gravityScale = jumpGravity;
             }
         }
-        else if (rb.linearVelocityY <= 0) 
+        else if (rb.linearVelocityY <= 0)
         {
             //jumpTimer = jumpTimer + Time.deltaTime;
             if (Input.GetButton("Jump"))
@@ -68,7 +70,7 @@ public class Player : Character
             rb.gravityScale = originalGravity;
         }
 
-        if ((isGrounded) && (jumpTimer >= jumpMaxDuration) && (Mathf.Abs(currentVelocity.y) > 1.0f))    
+        if ((isGrounded) && (jumpTimer >= jumpMaxDuration) && (Mathf.Abs(currentVelocity.y) > 1.0f))
         {
             currentVelocity.y = 0.0f;
         }

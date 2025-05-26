@@ -43,6 +43,7 @@ public class ArmMechanic : MonoBehaviour
     [Header("Arm Renderer Settings")]
     [SerializeField] private LineRenderer _armLine;
     [SerializeField] private GameObject _arm;
+    [SerializeField] private GameObject _hand;
     [SerializeField] private Texture2D _cursorTexture;
     [SerializeField] private float _correctArmAngle = 90f;
     [SerializeField] private float _armVelocity = 2f;
@@ -82,7 +83,6 @@ public class ArmMechanic : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(_mousePos, Vector3.zero, Mathf.Infinity, _grableMask);
             if (hit.collider != null)
             {
-                Debug.Log(hit.transform.name);
                 _grabbedObject = hit.transform.GetComponent<Rigidbody2D>();
                 _transPoint = hit.point;
                 _transPoint.z = 0;
@@ -103,12 +103,14 @@ public class ArmMechanic : MonoBehaviour
         {
             _isGrabbing = true;
             _armLine.enabled = true;
+            _hand.transform.position = _grabbedObject.transform.position;
+            _hand.GetComponent<SpriteRenderer>().enabled = true;
+
             Vector3 _currentObjectPos = _grabbedObject.transform.position;
             _mousePos.z = _currentObjectPos.z;
             Vector3 _newPos = _mousePos;
             Vector2 _objectBaseSpeed = Vector2.zero;
             float _dist = Vector3.Distance(_newPos, _currentObjectPos);
-            Debug.Log(_dist);
 
             if (_moveObjectXAxis)
             {
@@ -121,7 +123,6 @@ public class ArmMechanic : MonoBehaviour
             
             if (_dist > _followThreshold)
             {
-                Debug.Log(_dist);
                 Vector3 _diff = (_newPos - _currentObjectPos).normalized;
                 float _threshold = (_dist - _followThreshold) / 720;
                 float _objectMoveSpeed = Mathf.Lerp(50f, 500f, _threshold);
@@ -199,6 +200,7 @@ public class ArmMechanic : MonoBehaviour
                 _grabbedObject.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
             _thisGameObjectDoesntNeedConstraits = false;
             _grabbedObject = null;
+            _hand.GetComponent<SpriteRenderer>().enabled = false;
             _armLine.enabled = false;
             _isGrabbing = false;
         }

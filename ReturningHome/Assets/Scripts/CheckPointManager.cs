@@ -1,4 +1,6 @@
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckPointManager : MonoBehaviour
 {
@@ -32,7 +34,7 @@ public class CheckPointManager : MonoBehaviour
 
     public void RespawnPlayer()
     {
-        GameObject _player = FindAnyObjectByType<Player>().gameObject;
-        _player.transform.position = _spawnPoint;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        FindAnyObjectByType<Player>().transform.position = GetSpawnPoint();   
     }
 }
