@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 60f93ee63df998341bd83712097bc2de
+guid: 3bcdb93a3621fc044be56df779f56382
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2960736823817294751
-    second: morningbackground_0
+      213: -8583467278982804020
+    second: morningbackground_sky_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 9
-  spritePivot: {x: 0.5, y: 0.25}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: morningbackground_0
+      name: morningbackground_sky_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 700
-        height: 600
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16ca3fe9b8959e6d0800000000000000
-      internalID: -2960736823817294751
+      spriteID: ccd8a07acf561e880800000000000000
+      internalID: -8583467278982804020
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e8851af5190b9924e81a5465dee89bb9
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      morningbackground_0: -2960736823817294751
+      morningbackground_sky_0: -8583467278982804020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
