@@ -545,10 +545,38 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2275939165744981991, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3498547291827570949, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 4732830475666237240}
+    - target: {fileID: 4061112875351835822, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061112875351835822, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6417f74ed63ede2499f840be570dc1f9, type: 3}
+    - target: {fileID: 6245945519979416271, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6245945519979416271, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6417f74ed63ede2499f840be570dc1f9, type: 3}
+    - target: {fileID: 6563104145274412565, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563104145274412565, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4800089287488980712, guid: c8e425a175acc4d4c8e732ae28a050a5, type: 3}
     - target: {fileID: 6857942402952236688, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
       propertyPath: _audioSource
       value: 
@@ -637,6 +665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuUI
       objectReference: {fileID: 0}
+    - target: {fileID: 8420388613414328572, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70411124bbd61354d8835af4609345c1, type: 3}
     - target: {fileID: 8606826041519659523, guid: 68e6923b4d055e341abea5e7d7342dde, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

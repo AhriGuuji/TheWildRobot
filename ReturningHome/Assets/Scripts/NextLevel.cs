@@ -12,6 +12,7 @@ public class NextLevel : MonoBehaviour
 
         if (_player)
         {
+            CheckPointManager.Instance.SetSpawnPoint(default);
             SceneManager.LoadScene(_nextLevel);
         }
     }
