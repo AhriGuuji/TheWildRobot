@@ -723,7 +723,7 @@ Tilemap:
       - {fileID: -218100381634621166, guid: 27b31a249a1a0f443aa3355178f5f578, type: 3}
       - {fileID: 908692116057104420, guid: 27b31a249a1a0f443aa3355178f5f578, type: 3}
       - {fileID: 106485202, guid: 27b31a249a1a0f443aa3355178f5f578, type: 3}
-      m_AnimationSpeed: 3.8989904
+      m_AnimationSpeed: 2.3117096
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -13672,7 +13672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   targetEntity: {fileID: 2526232946964107143}
-  offset: {x: 50, y: 75, z: 0}
+  offset: {x: 50, y: 0, z: 0}
   viewAbove: 200
   viewDown: 200
   maxSpeed: 150
