@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aa5de36b0bd04c4ca25adbfc30abf20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bear: {fileID: 2355781826180066716, guid: 45ee22cf2ef87754987a296de6fcba74, type: 3}
+  _bear: {fileID: 2487306927694854142, guid: 8298931564e60074f9645af60014c6dc, type: 3}
   _bearPos: {fileID: 1986145716}
 --- !u!1 &265014792
 GameObject:
@@ -4898,7 +4898,7 @@ Transform:
   m_GameObject: {fileID: 1986145715}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 4479.2153, y: 181.31139, z: -0.49708688}
+  m_LocalPosition: {x: 4479.2153, y: 157.2, z: -0.49708688}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
